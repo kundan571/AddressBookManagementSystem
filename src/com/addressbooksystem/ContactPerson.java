@@ -93,6 +93,6 @@ public class ContactPerson {
     public String toString() {
         return "Employee [name=" + this.firstName + " " + this.lastName + ", Address=" + this.address + ", City="
                 + this.city + ", state=" + this.state + ", zip=" + this.zip
-                + ", phone=" + this.phoneNumber + "]";
+                + ", phone=" + this.phoneNumber + ", Email=" + this.email + "]";
     }
 }
