@@ -1,12 +1,14 @@
 package com.addressbooksystem;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
 public class AddressBook extends ContactPerson {
     public static void main(String[] args) {
         AddressBook newPerson = new AddressBook();
         ArrayList<AddressBook> person = new ArrayList<>();
         System.out.println("Welcome to Address Book Program");
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         //Add person address
         System.out.println("Enter first name");
         newPerson.setFirstName(scanner.nextLine());
@@ -27,4 +29,3 @@ public class AddressBook extends ContactPerson {
         System.out.println(person);
     }
 }
-
